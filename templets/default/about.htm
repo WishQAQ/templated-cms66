@@ -1,0 +1,95 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+    
+  <head> 
+      
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />  
+    <title>{dede:field.title/}_{dede:global.cfg_webname/}</title>  
+    <link href="/templets/default/styles/page_about.css" rel="stylesheet" type="text/css" />  
+    <script type="text/javascript" src="/templets/default/js/publicScripts/common/jquery.js"></script>
+<script type="text/javascript" src="/templets/default/js/publicScripts/lib.min.js"></script>  
+   
+  </head>  
+  <body id="about"> 
+    <div class="pageWidth" id="box_root"> 
+      <!-- 头部导航开始 -->  
+      <div id="box_header"> 
+         {dede:include filename="header.htm"/} 
+     {dede:include filename="header2.htm"/} 
+      </div>  
+      <!-- 头部导航结束 -->  
+      <div id="box_main"> 
+        <div id="box_main_sub1"> 
+          <div id="box_main_sub1_sub1"> 
+            <div id="box_main_sub1_sub1_sub1"> 
+              
+              <img alt="关于我们" src="/templets/default/images/wss/about_us.png" />  
+           
+            </div>  
+            <div id="box_main_sub1_sub1_sub2"> 
+              
+              <DIV xmlns="" class="columnSpace" id="elem-FrontComContent_list01-1434948201293" name="通用内容列表">  
+                <script type="text/javascript" src="/templets/default/js/publicScripts/comcontent/FrontComContent_list01.js"></script>
+<div id="FrontComContent_list01-1434948201293" class="FrontComContent_list01-d1_c1"><div class="menu-first">
+			<script type="text/javascript">
+							//<![CDATA[
+							FrontComContent_list01['FrontComContent_list01-1434948201293_init'] = function (){
+								FrontComContent_list01.d1extNoContainCategoryAlternate('FrontComContent_list01-1434948201293');
+							}
+							$(FrontComContent_list01['FrontComContent_list01-1434948201293_init']);
+							// ]]>
+						</script>
+						<ul class="list2">
+							{dede:channel type=son}
+                            <li class="menu-none"><a id="comContent2_7" href="[field:typeurl/]" title="[field:typename/]" class="menu-text1" >[field:typename/]</a></li>
+	                        {/dede:channel}
+							</ul>
+						</div>
+	</div> 
+              </DIV>  
+              
+            </div>  
+             {dede:include filename="sidebarslide.htm"/} 
+          </div>  
+          <div id="box_main_sub1_sub2"> 
+            <div id="box_main_sub1_sub2_sub1"> 
+               
+              <DIV xmlns="" class="columnSpace" id="elem-FrontPublic_breadCrumb01-1434948260249" name="面包屑">  
+                <div id="FrontPublic_breadCrumb01-1434948260249" class="FrontPublic_breadCrumb01-d1_c1"><div>
+	您现在的位置：{dede:field name="position"/}
+		</div>
+</div> 
+              </DIV>  
+             
+            </div>  
+            <div id="box_main_sub1_sub2_sub2"> 
+               
+              <DIV xmlns="" class="columnSpace" id="elem-FrontComContent_detail01-1434948302960" name="通用内容详细信息">  
+                <script type="text/javascript" src="/templets/default/js/publicScripts/comcontent/FrontComContent_detail01.js"></script>
+<div id="FrontComContent_detail01-1434948302960" class="FrontComContent_detail01-d1_c1"><div class="content">
+  	<div class="describe htmledit">
+  		<div class="FrontComContent_detail01-1434948302960_htmlbreak" id="FrontComContent_detail01-1434948302960_cont_1"
+				style="display: block;"><h3 style="text-align: center;">
+	<span style="font-size: 14px;">
+    
+    {dede:field.content/}
+    </div>
+		</div>
+  </div>
+  </div> 
+              </DIV>  
+           
+            </div> 
+          </div>  
+          <div class="clearBoth"></div> 
+        </div> 
+      </div>  
+      <!-- 底部版权开始 -->  
+   {dede:include filename="footer.htm"/} 
+      <!-- 底部版权结束 --> 
+    </div>  
+  
+ </body>
+</html>

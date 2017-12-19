@@ -1,0 +1,93 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <!--    -->  
+  <head> 
+    <!--    -->  
+    <meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />  
+    <title>{dede:field.title/}_{dede:global.cfg_webname/}</title>
+<meta name="keywords" content="{dede:field.keywords/}" />
+<meta name="description" content="{dede:field.description function='html2text(@me)'/}" />
+    <link href="/templets/default/styles/page_service.css"  rel="stylesheet" type="text/css" />  
+    <script type="text/javascript" src="/templets/default/js/publicScripts/common/jquery.js" ></script>
+<script type="text/javascript" src="/templets/default/js/publicScripts/lib.min.js" ></script>  
+    <!--    --> 
+  </head>  
+  <body id="service"> 
+    <div class="pageWidth" id="box_root"> 
+      <!-- 头部导航开始 -->  
+      <div id="box_header"> 
+        {dede:include filename="header.htm"/} 
+     {dede:include filename="header2.htm"/}
+      </div>  
+      <!-- 头部导航结束 -->  
+      <div id="box_main"> 
+        <div id="box_main_sub1"> 
+          <div id="box_main_sub1_sub1"> 
+            <div id="box_main_sub1_sub1_sub1"> 
+              <!--    -->  
+              <img alt="关于我们" src="/templets/default/images/wss/kffw.png"  />  
+              
+            </div>  
+            <div id="box_main_sub1_sub1_sub2"> 
+              <!--    -->  
+              <DIV xmlns="" class="columnSpace" id="elem-FrontComContent_list01-1434952390931" name="通用内容列表">  
+                <script type="text/javascript" src="/templets/default/js/publicScripts/comcontent/FrontComContent_list01.js" ></script>
+<div id="FrontComContent_list01-1434952390931" class="FrontComContent_list01-d1_c1"><div class="menu-first">
+			<script type="text/javascript">
+							//<![CDATA[
+							FrontComContent_list01['FrontComContent_list01-1434952390931_init'] = function (){
+								FrontComContent_list01.d1extNoContainCategoryAlternate('FrontComContent_list01-1434952390931');
+							}
+							$(FrontComContent_list01['FrontComContent_list01-1434952390931_init']);
+							// ]]>
+						</script>
+						<ul class="list2">
+							{dede:channel type=son}
+							<li class="menu-none"><a id="comContent2_13" href="[field:typeurl/]"  title="[field:typename/]" class="menu-text1" >[field:typename/]</a></li>
+							{/dede:channel}
+							</ul>
+						</div>
+	</div> 
+              </DIV>  
+              
+            </div>  
+            {dede:include filename="sidebarslide.htm"/}
+          </div>  
+          <div id="box_main_sub1_sub2"> 
+            <div id="box_main_sub1_sub2_sub1"> 
+              <!--    -->  
+              <DIV xmlns="" class="columnSpace" id="elem-FrontPublic_breadCrumb01-1434952359233" name="面包屑">  
+                <div id="FrontPublic_breadCrumb01-1434952359233" class="FrontPublic_breadCrumb01-d1_c1"><div>
+	您现在的位置：<a href="main.html"  target="_self" >网站首页</a>
+		</div>
+</div> 
+              </DIV>  
+              
+            </div>  
+            <div id="box_main_sub1_sub2_sub2"> 
+              <!--    -->  
+              <DIV xmlns="" class="columnSpace" id="elem-FrontComContent_detail01-1434952543301" name="通用内容详细信息">  
+                <script type="text/javascript" src="/templets/default/js/publicScripts/comcontent/FrontComContent_detail01.js" ></script>
+<div id="FrontComContent_detail01-1434952543301" class="FrontComContent_detail01-d1_c1"><div class="content">
+  	<div class="describe htmledit">
+  		<div class="FrontComContent_detail01-1434952543301_htmlbreak" id="FrontComContent_detail01-1434952543301_cont_1"
+				style="display: block;"><p>
+	{dede:field.content/}</p>
+</div>
+		</div>
+  </div>
+  </div> 
+              </DIV>  
+              
+            </div> 
+          </div>  
+          <div class="clearBoth"></div> 
+        </div> 
+      </div>  
+      <!-- 底部版权开始 -->  
+    {dede:include filename="footer.htm"/}
+      <!-- 底部版权结束 --> 
+    </div>  
+</body>
+</html>

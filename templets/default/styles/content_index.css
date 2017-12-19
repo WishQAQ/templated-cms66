@@ -1,0 +1,31 @@
+@charset "utf-8";
+body{
+	background-color:#e3ce95;
+	background-attachment:fixed;
+	background-image:none;
+	background-repeat:no-repeat;
+	background-position:center center;
+}
+a:link{
+}
+a:visited{
+}
+a:hover{
+}
+a:active{
+}
+#index{
+background-color:#000;
+}
+.pageWidth{
+	width:1000px;
+	background-attachment:fixed;
+	background-image:none;
+	background-repeat:no-repeat;
+	background-position:center center;
+	background-color:;
+}
+
+
+
+

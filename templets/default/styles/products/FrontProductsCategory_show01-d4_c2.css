@@ -1,0 +1,64 @@
+@charset "utf-8";
+
+/** 全局样式 **/
+.FrontProductsCategory_show01-d4_c2 {
+	width:99%;
+	text-align:left;
+	clear:both;
+	
+}
+.FrontProductsCategory_show01-d4_c2 .list {
+	overflow:hidden;
+	padding:5px 10px;
+	background:url(../../images/products/libombg.gif) 0 100% repeat-x;
+}
+.FrontProductsCategory_show01-d4_c2 .pic-module {
+	display:none;
+}
+.FrontProductsCategory_show01-d4_c2 .new-module {
+	width:100%;
+}
+.FrontProductsCategory_show01-d4_c2 h3{
+	margin:0;
+	line-height:22px;
+	height:22px;
+	font-size:14px;
+}
+.FrontProductsCategory_show01-d4_c2 h3 a {
+	text-decoration:none;
+	font-weight:bold;
+	font-size:12px;
+	color:#404040;
+}
+.FrontProductsCategory_show01-d4_c2 h3 em{
+	
+}
+.FrontProductsCategory_show01-d4_c2 h3 a:hover {
+	text-decoration:underline;
+}
+.FrontProductsCategory_show01-d4_c2 h3 a em {
+	font-style:normal;
+}
+.FrontProductsCategory_show01-d4_c2 .summary {
+	display:none;
+}
+.FrontProductsCategory_show01-d4_c2 .linkarea{
+	width:100%;
+	overflow:hidden;
+	padding:5px 0px;
+ 	margin:0px;
+	*line-height:0;
+}
+.FrontProductsCategory_show01-d4_c2 .linkarea a{
+	padding:0px 2px 0 3px;
+	margin:5px 0px;
+	*margin:0px;
+	display:inline-block;
+	color:#404040;
+	line-height:14px;
+	*line-height:20px;
+	text-decoration:none;
+}
+.FrontProductsCategory_show01-d4_c2 .linkarea a:hover{
+	text-decoration:underline;
+}

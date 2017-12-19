@@ -1,0 +1,26 @@
+@charset "utf-8";
+/* CSS Document */
+
+.FrontPublic_slideShow01-d2_c1{
+	height:100%;
+	width:270px
+}
+
+.FrontPublic_slideShow01-d2_c1 #center {
+	Z-INDEX: 2; POSITION: absolute; TOP: 0; LEFT: 0
+}
+.FrontPublic_slideShow01-d2_c1 #slider {
+	Z-INDEX: 1;POSITION: absolute;  WIDTH:1045px;  HEIGHT: 270px; OVERFLOW: hidden;  TOP: 0px; LEFT: 0px
+}
+.FrontPublic_slideShow01-d2_c1 #slider .slide {
+	Z-INDEX: 10; POSITION: absolute;  WIDTH:630px; HEIGHT: 270px; background:#f9ebc7; OVERFLOW: hidden; TOP: 10px; CURSOR: default; LEFT: 0px;text-align:left;
+}
+.FrontPublic_slideShow01-d2_c1 #slider .title {
+	COLOR: #f80; FONT-SIZE: 1.2em; FONT-WEIGHT: bold; MARGIN-RIGHT: 1.5em; TEXT-DECORATION: none
+}
+
+.FrontPublic_slideShow01-d2_c1 #slider .diapo {
+	POSITION: absolute; FILTER: alpha(opacity=100); VISIBILITY: visible; opacity: 1
+}
+
+

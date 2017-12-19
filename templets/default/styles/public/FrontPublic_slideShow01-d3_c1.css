@@ -1,0 +1,31 @@
+@charset	"utf-8";
+/*	CSS	Document	*/
+
+
+.FrontPublic_slideShow01-d3_c1	img{border-top-style: none;border-right-style: none;border-bottom-style: none;border-left-style: none;}
+.FrontPublic_slideShow01-d3_c1	ul	{	list-style:	none;	}
+.FrontPublic_slideShow01-d3_c1	a{	color:	#538c9f;	}
+.FrontPublic_slideShow01-d3_c1	a:hover	{	color:	#84B263;	}
+/*设置*/
+.FrontPublic_slideShow01-d3_c1	div .wrapper	{	/*width:	980px;  margin:	auto;*/		position:	relative;	height:550px;  overflow:hidden;}
+#elem-FrontPublic_slideShow01-1434943582226 .FrontPublic_slideShow01-d3_c1	div .wrapper {	/*width:	980px;  margin:	auto;*/		position:	relative;	height:350px;  overflow:hidden;}
+.FrontPublic_slideShow01-d3_c1	.fn-clear	{	zoom:	1;	}
+.FrontPublic_slideShow01-d3_c1	.box_skitter	{	position:	relative;	background:	none;	}
+.FrontPublic_slideShow01-d3_c1	.box_skitter	ul	{	display:	none;	position:absolute;width:999999px; height:550px;}
+#elem-FrontPublic_slideShow01-1434943582226 .FrontPublic_slideShow01-d3_c1	.box_skitter	ul {	display:	none;	position:absolute;width:999999px; height:350px;}
+/*设置*/
+.FrontPublic_slideShow01-d3_c1	.box_skitter	ul  li{text-align:center; width:1920px; display:inline;font-size:0; height:550px;float:left;}
+#elem-FrontPublic_slideShow01-1434943582226 .FrontPublic_slideShow01-d3_c1	.box_skitter	ul  li{text-align:center; width:1920px; display:inline;font-size:0; height:350px;float:left;}
+.FrontPublic_slideShow01-d3_c1	.box_skitter	.container_skitter	{	overflow:	hidden;	position:	relative;	}
+.FrontPublic_slideShow01-d3_c1	.box_skitter	.image	{	overflow:	hidden;	position: relative;}
+.FrontPublic_slideShow01-d3_c1	.box_skitter	.image	img	{	display:	none;	}
+.FrontPublic_slideShow01-d3_c1	.box_skitter	.box_clone	{	position:	absolute;	top:	0;	left:	0;	width:	100px;	overflow:	hidden;	display:	none;	z-index:	20;	}
+.FrontPublic_slideShow01-d3_c1	.box_skitter	.box_clone	img	{	position:	absolute;	top:	0;	left:	0;	z-index:	20;	}
+.FrontPublic_slideShow01-d3_c1	.box_skitter	.prev_button	{	position:	absolute;	top:	50%;	left:12%;	z-index:	100;	width:	57px;	height:	62px;	overflow:	hidden;	text-indent:	-9999em;	margin-top:	-25px;	background:	url(../../images/public/prev.png)	no-repeat	left	top	!important;	}
+.FrontPublic_slideShow01-d3_c1	.box_skitter	.next_button	{	position:	absolute;	top:	50%;	right:12%;	z-index:	100;	width:	57px;	height:	62px;	overflow:	hidden;	text-indent:	-9999em;	margin-top:	-25px;	background:	url(../../images/public/next.png)	no-repeat	left	top	!important;	}
+.FrontPublic_slideShow01-d3_c1	.box_skitter	.label_skitter	{	z-index:	150;	position:	absolute;	display:	none;	}
+.FrontPublic_slideShow01-d3_c1	.loading	{	position:	absolute;	top:	50%;	right:	50%;	z-index:	10000;	margin:	-16px	-16px;	color:	#fff;	text-indent:	-9999em;	overflow:	hidden;	background:	url(../../images/public/ajax-loader.gif)	no-repeat	left	top;	width:	31px;	height:	31px;	}
+/*设置*/
+.FrontPublic_slideShow01-d3_c1	#slideshow	{	width:1920px;	height:550px;	position:absolute; margin-left:-960px; zoom:1 ;overflow:hidden; left:50%;}
+#elem-FrontPublic_slideShow01-1434943582226  .FrontPublic_slideShow01-d3_c1	#slideshow{	width:1920px;	height:350px;	position:absolute; margin-left:-960px; zoom:1 ;overflow:hidden; left:50%;}
+.FrontPublic_slideShow01-d3_c1	#slideshow	ul	{	display:	none;	}

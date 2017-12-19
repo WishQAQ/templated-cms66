@@ -1,0 +1,210 @@
+@charset "utf-8";
+/*************************************
+* 文件名称：layout.css
+* 作   者：界面设计制作部
+* 创建日期：2009-4-1
+* 最后修改：name/ 第X行 / yyyy-mm-dd
+* 文件版本：UI CSS Frameworks Beta
+* 内容概要:一列版式样式
+*************************************/
+/*根容器*/  
+#box_root{
+	margin-right: auto;
+	margin-left: auto;
+}
+/*头部导航*/  
+#box_header {
+	width: 100%;
+}
+/*底部版权*/  
+#box_footer{background-image:url(../images/wss/bottombg.png);background-position:center center;background-repeat:no-repeat;float:none;height:192px;width:100%; border-top:3px solid #723a19; }
+/*主栏*/  
+#box_main{float:none;width:100%; background-image:url(../images/wss/n_bg.png);background-position:center bottom;background-repeat:no-repeat;}
+/*一列栏目*/  
+
+/*一列栏目的间距设置*/  
+#box_left .columnSpace { }
+
+
+
+ 
+#box_header_sub1{background-color:#ebd8a7;background-image:url(../images/wss/headBg.jpg);background-position:center top;background-repeat:repeat-x;float:none;height:125px;width:100%;}
+#box_header_sub2{width:100%; height:40px; background:#723a19; border-bottom:1px solid #e3ce95; }
+#box_header_sub3{width:100%; border-bottom:1px solid #3b1702; }
+#box_header_sub1_sub1{float:none;width:1090px; margin:0 auto; }
+#box_header_sub1_sub1_sub1{float:left;width:50%;}
+#box_header_sub1_sub1_sub2{float:left;width:50%; height:125px; background:url(../images/wss/top_rightbg.png) right 35px no-repeat;}
+#box_header_sub1_sub1_sub2_sub1{width:75%; padding-top:40px; text-align:right;}
+#box_header_sub1_sub1_sub2_sub2{width:75%; text-align:right; padding-top:5px;}
+#box_header_sub2_sub1{float:none;width:1000px; margin:0 auto;}
+#box_footer_sub1{width:1100px; margin:0 auto; text-align:left; padding-top:30px;}
+#box_main_sub1{width:1090px; margin:0 auto; background:#faedc9;}
+#box_main_sub1_sub1{float:left;width:240px; position:relative; bottom:100px;}
+#box_main_sub1_sub2{float:right;width:830px;}
+#box_main_sub1_sub1_sub1{width:100%;}
+#box_main_sub1_sub1_sub2{width:100%; background:#fdf0d0; }
+#box_main_sub1_sub1_sub3{width:100%;}
+#box_main_sub1_sub2_sub1 { width:100%; }
+@charset "utf-8";
+/*************************************
+* 文件名称：layout.css
+* 作   者：界面设计制作部* 创建日期：2009-4-1
+* 最后修改：name/ 第X行 / yyyy-mm-dd
+* 文件版本：UI CSS Frameworks Beta
+* 内容概要:一列版式样式*************************************/
+/*根容器*/  
+#box_root {
+	margin-right: auto;
+	margin-left: auto;
+	text-align:left;
+}
+/*头部导航*/  
+#box_header {
+	width: 100%;
+}
+#box_header_top {
+	clear:both;
+	width:100%;
+	padding:10px 0;
+}
+#box_header_top .columnSpace {
+	padding:0 0 0;
+}
+#box_logo {
+	width:25%;
+	float:left;
+	margin-top:10px;
+}
+#box_seach {
+	float:right;
+	width:74%;
+}
+#box_column {
+	width:100%;
+	overflow:hidden;
+	clear:both;
+}
+#box_banner{
+	width:100%;
+	clear:both;
+	float:none;
+}
+/*主栏*/  
+#box_main {
+	margin-right: auto;
+	margin-left: auto;
+	margin-top:10px;
+	width:100%;
+	clear:both;
+}
+/*一列栏目*/  
+#box_left {
+	width: 100%;
+}
+/*一列栏目的间距设置*/  
+#box_left .columnSpace {
+}
+/*商城公告*/  
+#box_new_list {
+	/*overflow:hidden;*/
+
+	float:left;
+	/*width:180px;*/
+
+	width:19%;
+}
+/*翻页广告*/  
+#adv_picture {
+	float:left;
+	/*width:500px;*/
+	width:51%;
+	/*overflow:hidden;*/
+	margin:0 10px;
+}
+/*新品上架*/  
+#box_new_products {
+	/*width:260px;*/
+
+	width:27%;
+	/*overflow:hidden;*/
+
+	float:right;
+}
+/*商品分类及热销商品 */  
+#box_productsBrandCategory {
+	/*width:680px;*/
+
+	width:70%;
+	float:left;
+	/*overflow:hidden;*/
+
+	text-align:left;
+}
+/*商品点击率及热销排行*/  
+#box_Products_ranking {
+	/*width:260px;*/
+
+	width:27%;
+	float:right;
+	margin-left:20px;/*overflow:hidden;*/
+}
+/*图片广告*/  
+#box_adBanner {
+	clear:both;
+}
+/*问卷调查*/  
+#box_questionnaire_survey {
+	/*overflow:hidden;*/
+
+	float:left;
+	/*width:180px;*/
+
+	width:19%;
+}
+/*ad1广告*/  
+#box_questionnaire_survey #box_ad1 {
+	/*width:180px;*/
+
+	width:100%;
+	height:60px;
+}
+/*特卖区*/  
+
+#box_Products_list {
+	float:left;
+	/*width:500px;*/
+
+	width:51%;
+	/*overflow:hidden;*/
+
+	margin:0 10px;
+}
+/*资讯排行、列表*/  
+#box_news_ranking {
+	/*width:260px;*/
+
+	width:27%;
+	/*overflow:hidden;*/
+
+	float:right;
+	text-align:left;
+}
+/*品牌列表*/  
+#box_productsBrand_list {
+	clear:both;
+	width:100%;
+}
+/*文字广告*/  
+#box_adv_text {
+	clear:both;
+	width:100%;
+}
+/*图片广告*/  
+
+#box_adv_picture {
+	clear:both;
+	width:100%;
+}
+/*底部版权*/  
+
+

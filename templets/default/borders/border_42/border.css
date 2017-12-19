@@ -1,0 +1,184 @@
+@charset "utf-8";
+
+.border_42{padding-bottom:0px;padding-left:0px;padding-right:0px;padding-top:0px;position:relative;text-align:left;width:100%;}
+
+.border_42 .border_42-topr{
+
+   background-image: url(images/border-topr.gif);
+
+    line-height: 43px;
+
+    background-repeat: no-repeat;
+
+    background-position: right top;
+
+    height: 43px;
+
+}
+
+.border_42 .border_42-topl{
+
+   line-height: 43px;
+
+    background: url(images/border-topl.gif) no-repeat left top;
+
+    height: 43px;
+
+}
+
+.border_42 .border_42-midr{
+
+   background: url(images/border-midr.gif) repeat-y right top;
+
+}
+
+.border_42 .border_42-midl{
+
+   width: 100%;
+
+    background: url(images/border-midl.gif) repeat-y left top;
+
+}
+
+.border_42 .borderContent{
+
+   padding-bottom: 10px;
+
+    padding-left: 10px;
+
+    padding-right: 10px;
+
+    padding-top: 10px;
+
+}
+
+.border_42 .border_42-footerr{
+
+   background: url(images/border-footerr.gif) no-repeat right bottom;
+
+    height: 9px;
+
+    font-size: 0px;
+
+}
+
+.border_42 .border_42-footerl{
+
+   background: url(images/border-footerl.gif) no-repeat left bottom;
+
+    height: 9px;
+
+    font-size: 0px;
+
+}
+
+.border_42 .comptitle_42{
+
+   position: absolute;
+
+    width: 98%;
+
+    height: 25px;
+
+    top: 5px;
+
+    left: 7px;
+
+}
+
+.border_42 .comptitle_42 STRONG{
+
+   text-align: left;
+
+    font-style: normal;
+
+    width: 45%;
+
+    float: left;
+
+    margin-left: 5px;
+
+    word-break: break-all;
+
+    font-weight: bold;
+
+    text-decoration: none;
+
+	color: #fff;
+
+}
+
+.border_42 .comptitle_42 .titlestyle_42{color:#fff;font-size:12px;font-style:normal;font-weight:bold;text-decoration:none;}
+
+.border_42 .comptitle_42 STRONG IMG{
+
+   width: 20px;
+
+    height: 20px;
+
+    vertical-align: middle;
+
+    margin-right: 5px;
+
+}
+
+.border_42 .comptitle_42 EM{
+
+   font-style: normal;
+
+    float: right;
+
+    font-weight: normal;
+
+    margin-right: 10px;
+
+}
+
+.border_42 .comptitle_42 EM SPAN.extendLink{
+
+   text-align: right;
+
+    font-size: 12px;
+
+    margin-right: 8px;
+
+}
+
+.border_42 .comptitle_42 EM SPAN.moreLink{
+
+   font-style: normal;
+
+    font-weight: normal;
+
+}
+
+.border_42 .compmore_42{
+
+   text-align: right;
+
+    clear: both;
+
+    font-size: 12px;
+
+    margin-right: 10px;
+
+}
+
+.border_42 .compmore_42 .extendLink{
+
+   text-align: right;
+
+    font-size: 12px;
+
+    margin-right: 10px;
+
+}
+
+.border_42 .compmore_42 .moreLink{
+
+   font-style: normal;
+
+    font-weight: normal;
+
+}
+

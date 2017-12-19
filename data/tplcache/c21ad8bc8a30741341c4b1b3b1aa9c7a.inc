@@ -1,0 +1,1 @@
+<a href="[field:typelink/]" rel="summenu_FrontColumns_navigation01-1434078754918_54" title="[field:typename/]">[field:typename/]</a>

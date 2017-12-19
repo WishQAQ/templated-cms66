@@ -1,0 +1,104 @@
+@charset "utf-8";
+.border_45 {
+	position: relative;
+	text-align: left;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	width: 100%;
+	padding-right: 0px;
+	padding-top: 0px;
+	z-index:2;
+}
+.border_45 .border_45-topr {
+	background-image: url(../../images/border-topr.gif);
+	line-height: 25px;
+	background-repeat: no-repeat;
+	background-position: right top;
+	height: 25px;
+}
+.border_45 .border_45-topl {
+	line-height: 25px;
+	background: url(../../images/border-topl.gif) no-repeat left top;
+	height: 25px;
+}
+.border_45 .border_45-midr {
+	background: url(../../images/border-midr.gif) repeat-y right top;
+}
+.border_45 .border_45-midl {
+	width: 100%;
+	background: url(../../images/border-midl.gif) repeat-y left top;
+}
+.border_45 .borderContent {
+	padding-bottom: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 10px;
+}
+.border_45 .border_45-footerr {
+	background: url(../../images/border-footerr.gif) no-repeat right bottom;
+	height: 6px;
+	font-size: 0px;
+}
+.border_45 .border_45-footerl {
+	background: url(../../images/border-footerl.gif) no-repeat left bottom;
+	height: 6px;
+	font-size: 0px;
+}
+.border_45 .comptitle_45 {
+	position: absolute;
+	width: 98%;
+	height: 25px;
+	top: 5px;
+	left: 7px;
+}
+.border_45 .comptitle_45 STRONG {
+	text-align: left;
+	font-style: normal;
+	width: 45%;
+	float: left;
+	margin-left: 5px;
+	word-break: break-all;
+	font-weight: bold;
+	text-decoration: none;
+}
+.border_45 .comptitle_45 .titlestyle_45 {
+	color: #FFF;
+	font-size: 12px;
+	font-weight: bold;
+}
+.border_45 .comptitle_45 STRONG IMG {
+	width: 20px;
+	height: 20px;
+	vertical-align: middle;
+	margin-right: 5px;
+}
+.border_45 .comptitle_45 EM {
+	font-style: normal;
+	float: right;
+	font-weight: normal;
+	margin-right: 10px;
+}
+.border_45 .comptitle_45 EM SPAN.extendLink {
+	text-align: right;
+	font-size: 12px;
+	margin-right: 8px;
+}
+.border_45 .comptitle_45 EM SPAN.moreLink {
+	font-style: normal;
+	font-weight: normal;
+}
+.border_45 .compmore_45 {
+	text-align: right;
+	clear: both;
+	font-size: 12px;
+	margin-right: 10px;
+}
+.border_45 .compmore_45 .extendLink {
+	text-align: right;
+	font-size: 12px;
+	margin-right: 10px;
+}
+.border_45 .compmore_45 .moreLink {
+	font-style: normal;
+	font-weight: normal;
+}

@@ -1,0 +1,113 @@
+@charset "utf-8";
+.FrontMessages_customizeEmit01-d1_c1{
+   text-align: left;
+    margin: 0px auto 15px;
+    width: 98%;
+    clear: both;
+    overflow: hidden;
+}
+.FrontMessages_customizeEmit01-d1_c1 IMG{
+   vertical-align: middle;
+}
+.FrontMessages_customizeEmit01-d1_c1 .input{
+   border-bottom: #ddd 1px solid;
+    border-left: #ddd 1px solid;
+    line-height: 20px;
+    width: 170px;
+    height: 20px;
+    border-top: #ddd 1px solid;
+    border-right: #ddd 1px solid;
+}
+.FrontMessages_customizeEmit01-d1_c1 .text-oper1{
+   margin-bottom: 5px;
+    clear: both;
+}
+.FrontMessages_customizeEmit01-d1_c1 .input-gray{
+   border-bottom: #ddd 1px solid;
+    border-left: #ddd 1px solid;
+    line-height: 20px;
+    border-top: #ddd 1px solid;
+    border-right: #ddd 1px solid;
+}
+.FrontMessages_customizeEmit01-d1_c1 .textarea{
+   border-bottom: #ddd 1px solid;
+    border-left: #ddd 1px solid;
+    margin: 4px 0px;
+    width: 300px;
+    height: 60px;
+    font-size: 12px;
+    border-top: #ddd 1px solid;
+    border-right: #ddd 1px solid;
+}
+.FrontMessages_customizeEmit01-d1_c1 .tips{
+   padding-left: 10px;
+    color: #6a3d0c;
+}
+.FrontMessages_customizeEmit01-d1_c1 .fontred{
+   width: 11px !important;
+    float: left;
+    color: #f60;
+    _width: 8px;
+}
+.FrontMessages_customizeEmit01-d1_c1 .fontnone{
+   width: 11px !important;
+    float: left;
+    _width: 8px;
+}
+.FrontMessages_customizeEmit01-d1_c1 TABLE{
+   margin-top: 20px;
+}
+.FrontMessages_customizeEmit01-d1_c1 TABLE TH{
+   height: 30px;
+}
+.FrontMessages_customizeEmit01-d1_c1 TABLE TD{
+   height: 30px;
+}
+.FrontMessages_customizeEmit01-d1_c1 TABLE TH{
+   text-align: right;
+    width: 15%;
+    font-weight: normal;
+}
+.FrontMessages_customizeEmit01-d1_c1 TABLE TD{
+   text-align: left;
+    width: 85%;
+}
+.FrontMessages_customizeEmit01-d1_c1 TABLE TR.point IMG{
+}
+.FrontMessages_customizeEmit01-d1_c1 TABLE TR.express IMG{
+   padding-bottom: 0px;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-top: 0px;
+}
+.FrontMessages_customizeEmit01-d1_c1 TABLE TR.verify IMG{
+   padding-bottom: 0px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 0px;
+}
+.FrontMessages_customizeEmit01-d1_c1 TABLE TR .text-tip{
+   padding-left: 10px;
+    width: 300px;
+}
+.FrontMessages_customizeEmit01-d1_c1 TABLE TR.info .text-tip{
+   padding-left: 10px;
+    width: 300px;
+}
+.FrontMessages_customizeEmit01-d1_c1 TABLE .point TD IMG{
+   vertical-align: middle;
+}
+.FrontMessages_customizeEmit01-d1_c1 TABLE .point TD SPAN{
+   vertical-align: middle;
+}
+.FrontMessages_customizeEmit01-d1_c1 TABLE .point TD INPUT{
+   vertical-align: middle;
+}
+.FrontMessages_customizeEmit01-d1_c1 TABLE .point TD SPAN{
+   padding-right: 10px;
+    float: left;
+    margin-left: 10px;
+}
+.FrontMessages_customizeEmit01-d1_c1 TABLE TR.button-position{
+   height: 50px;
+}

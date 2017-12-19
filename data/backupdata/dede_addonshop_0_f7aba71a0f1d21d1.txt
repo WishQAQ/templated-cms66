@@ -1,0 +1,1 @@
+INSERT INTO `dede_addonshop` VALUES('35','22','<span style=\"font-size:16px;\">酒精度：50%vol；香型：浓香型；净含量：750ml. 市场统一零售价：520.00元。</span>','520','0','50°土王容美','50','','127.0.0.1','','750','浓香型','1442952000','<img alt=\"土王容美\" src=\"/uploads/allimg/150904/1-150Z41K011W7.jpg\" style=\"width: 100%;\" />');

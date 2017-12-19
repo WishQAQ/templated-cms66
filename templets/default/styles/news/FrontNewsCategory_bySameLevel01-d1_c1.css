@@ -1,0 +1,111 @@
+@charset "utf-8";
+/** 全局样式 **/
+
+.FrontNewsCategory_bySameLevel01-d1_c1 {
+	width:100%;
+	margin:0 auto;
+	font-size:14px;
+	color:#4c4948;
+	clear:both;
+	text-align:center;
+}
+.FrontNewsCategory_bySameLevel01-d1_c1 ul,
+ .FrontNewsCategory_bySameLevel01-d1_c1 li {
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+/** 一级菜单 **/
+
+.FrontNewsCategory_bySameLevel01-d1_c1 .menu-first ul li {
+	display:inline;
+}
+.FrontNewsCategory_bySameLevel01-d1_c1 .menu-first ul li a {
+	text-decoration:none;
+	line-height:35px;
+	height:35px;
+	display:block;
+	border-bottom:dashed 1px #ebd8a7;
+}
+.FrontNewsCategory_bySameLevel01-d1_c1 .menu-first ul li a:hover {
+	background:#723a19;
+	text-decoration:none;
+}
+.FrontNewsCategory_bySameLevel01-d1_c1 .menu-first ul li a.current {
+	background:#723a19;
+	width:100%;
+	height:35px;
+}
+/** 二级菜单 **/
+
+.FrontNewsCategory_bySameLevel01-d1_c1 .menu-second {
+	width:200px;
+	height:100%;
+	margin:0;
+	padding:0;
+}
+.FrontNewsCategory_bySameLevel01-d1_c1 .menu-second ul li {
+	margin:0;
+	padding:0;
+}
+.FrontNewsCategory_bySameLevel01-d1_c1 .menu-second p {
+	margin:0;
+}
+.FrontNewsCategory_bySameLevel01-d1_c1 .menu-second ul li a {
+	background:url(../../images/news/second-bg-02.gif) 0 0 no-repeat;
+	text-decoration:none;
+	width:200px;
+	line-height:25px;
+	height:25px;
+	margin:1px 0;
+}
+.FrontNewsCategory_bySameLevel01-d1_c1 .menu-second ul li a:hover {
+	background:url(../../images/news/second-bg-02.gif) 0 -25px no-repeat;
+	width:200px;
+}
+/** 无二级菜单 **/
+
+.FrontNewsCategory_bySameLevel01-d1_c1 .menu-first ul li.menu-none a {
+	text-decoration:none;
+	line-height:35px;
+	height:35px;
+	display:block;
+}
+.FrontNewsCategory_bySameLevel01-d1_c1 .menu-first ul li.menu-none a:hover {
+	background:#723a19;
+	width:100%;
+	height:35px;
+	text-decoration:none;
+}
+.FrontNewsCategory_bySameLevel01-d1_c1 .menu-first ul li.menu-none a.current {
+	background:#723a19;
+	width:100%;
+	height:35px;
+	color:#e3ce95;
+}
+/** 一级菜单 字体样式 **/
+
+a.menu-text1:link,
+a.menu-text1:visited,
+a.menu-text1:active {
+	padding-left:0px;
+	color:#4c4948;
+	text-decoration:none;
+}
+a.menu-text1:hover {
+	color:#e3ce95;
+	text-decoration:underline;
+}
+/** 二级菜单 字体样式 **/
+
+a.menu-text2:link,
+a.menu-text2:visited,
+a.menu-text2:active {
+	color:#3472a1;
+	text-decoration:none;
+	padding:0px;
+}
+a.menu-text2:hover {
+	color:#e3ce95;
+	text-decoration:underline;
+}

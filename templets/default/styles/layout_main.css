@@ -1,0 +1,64 @@
+@charset "utf-8";
+/*************************************
+* 文件名称：layout.css
+* 作   者：界面设计制作部
+* 创建日期：2009-4-1
+* 最后修改：name/ 第X行 / yyyy-mm-dd
+* 文件版本：UI CSS Frameworks Beta
+* 内容概要:一列版式样式
+*************************************/
+/*根容器*/  
+#box_root{
+	margin-right: auto;
+	margin-left: auto;
+}
+/*头部导航*/  
+#box_header {
+	width: 100%;
+}
+/*底部版权*/  
+#box_footer{background-image:url(../images/wss/bottombg.png);background-position:center center;background-repeat:no-repeat;float:none;height:192px;width:100%;}
+/*主栏*/  
+#box_main{float:none;width:100%; height:620px;  }
+/*一列栏目*/  
+
+/*一列栏目的间距设置*/  
+#box_left .columnSpace { }
+
+
+
+ 
+#box_header_sub1{background-color:#ebd8a7;background-image:url(../images/wss/headBg.jpg);background-position:center top;background-repeat:repeat-x;float:none;height:125px;width:100%;}
+#box_header_sub2{width:100%; height:40px; background:#723a19; border-bottom:1px solid #e3ce95; }
+#box_header_sub3{width:100%;}
+#box_header_sub1_sub1{float:none;width:1090px; margin:0 auto; }
+#box_header_sub1_sub1_sub1{float:left;width:50%;}
+#box_header_sub1_sub1_sub2{float:left;width:50%; height:125px; background:url(../images/wss/top_rightbg.png) right 35px no-repeat;}
+#box_header_sub1_sub1_sub2_sub1{width:75%; padding-top:40px; text-align:right;}
+#box_header_sub1_sub1_sub2_sub2{width:75%; text-align:right; padding-top:5px;}
+#box_header_sub2_sub1{float:none;width:1000px; margin:0 auto;}
+#box_main_sub1{background-image:url(../images/wss/mainbg.png);background-position:center center;background-repeat:no-repeat;float:none;height:315px;width:100%;position:relative; bottom:138px; z-index:998;}
+#box_main_sub2{background:url(../images/wss/main_tbg.png) center top no-repeat;bottom:300px;float:none;height:611px;margin:0 auto;position:relative;width:1129px; z-index:999; }
+#box_main_sub2_sub1{background-color:#f9ebc7;float:none;height:550px;margin:0px auto 0px;position:relative;top:30px;width:1070px;}
+#box_main_sub2_sub1_sub1{width:1040px; margin:0 auto; padding-top:15px;}
+#box_main_sub2_sub1_sub2{width:1040px; margin:0 auto; padding-top:15px; }
+#box_main_sub2_sub1_sub1_sub1{float:left;width:399px; height:195px;overflow:hidden; border-right:1px solid #cbaa77; text-align:left; }
+#box_main_sub2_sub1_sub1_sub2{float:left;width:320px;height:195px;overflow:hidden;border-right:1px solid #cbaa77;  }
+#box_main_sub2_sub1_sub1_sub3{float:right;width:304px;}
+#box_main_sub2_sub1_sub1_sub1_sub1{width:100%;height:52px; background:url(../images/wss/about.png) left center no-repeat;}
+#box_main_sub2_sub1_sub1_sub1_sub2{width:384px;}
+#box_main_sub2_sub1_sub1_sub1_sub1_sub1{width:339px; float:right; height:44px; border-bottom:#cbaa77 1px solid; background:url(../images/wss/about_t.png) left 0 no-repeat; }
+#box_main_sub2_sub1_sub1_sub1_sub1_sub1 a{ float:right; padding-right:15px; line-height:44px; font-size:12px; color:#ad8143; text-decoration:none;}
+#box_main_sub2_sub1_sub1_sub1_sub1_sub1 a:hover{ text-decoration:underline;}
+#box_main_sub2_sub1_sub1_sub2_sub1{width:100%; height:44px; border-bottom:1px solid #cbaa77; background:url(../images/wss/news.png) 10px 0 no-repeat;}
+#box_main_sub2_sub1_sub1_sub2_sub1 a{ float:right; padding-right:15px; line-height:44px; font-size:12px; color:#ad8143; text-decoration:none;}
+#box_main_sub2_sub1_sub1_sub2_sub1 a:hover{ text-decoration:underline;}
+#box_main_sub2_sub1_sub1_sub2_sub2{width:100%;}
+#box_main_sub2_sub1_sub1_sub3_sub1{width:100%;height:44px; background:url(../images/wss/video.png) right 0 no-repeat;}
+#box_main_sub2_sub1_sub1_sub3_sub2{width:100%;}
+#box_main_sub2_sub1_sub2_sub1{width:100%; height:44px;  background:url(../images/wss/product.png) left 0 no-repeat;}
+#box_main_sub2_sub1_sub2_sub1 a{ float:right; padding-right:0px; line-height:44px; font-size:12px; color:#ad8143; text-decoration:none;}
+#box_main_sub2_sub1_sub2_sub1 a:hover{ text-decoration:underline;}
+#box_main_sub2_sub1_sub2_sub2{width:100%; padding-top:15px; position:relative;}
+#box_main_sub2_sub1_sub2_sub1_sub1{width:940px; float:right; border-bottom:1px solid #cbaa77; height:43px; background:url(../images/wss/products.png) left 0 no-repeat;}
+#box_footer_sub1{width:1100px; margin:0 auto; text-align:left; padding-top:30px;}

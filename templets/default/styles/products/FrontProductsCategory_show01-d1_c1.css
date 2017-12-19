@@ -1,0 +1,168 @@
+@charset "utf-8";
+.FrontProductsCategory_show01-d1_c1{
+   z-index: 9999999;
+    text-align: left;
+    margin: 0px auto;
+    width: 100%;
+    color: #6a3d0c;
+    clear: both;
+    font-size:14px;
+    text-align:center;
+}
+.FrontProductsCategory_show01-d1_c1 UL{
+   padding-bottom: 0px;
+    list-style-type: none;
+    margin: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+}
+.FrontProductsCategory_show01-d1_c1 LI{
+   padding-bottom: 0px;
+    list-style-type: none;
+    margin: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+}
+.FrontProductsCategory_show01-d1_c1 .menu-first UL{
+   position: relative;
+}
+.FrontProductsCategory_show01-d1_c1 .menu-first UL LI{
+   width: 100%;
+    display: inline;
+}
+.FrontProductsCategory_show01-d1_c1 .menu-first UL LI A{
+   line-height: 35px;
+    display: block;
+    height: 35px;
+    text-decoration: none;
+    border-bottom:dashed 1px #ebd8a7;
+}
+.FrontProductsCategory_show01-d1_c1 .menu-first UL LI A:hover{
+   line-height: 35px;
+    display: block;
+    background:#723a19;
+    height: 35px;
+    color: #e3ce95;
+    text-decoration: none;
+}
+.FrontProductsCategory_show01-d1_c1 .menu-first UL LI.menu-none A{
+   line-height: 35px;
+    display: block;
+    height: 35px;
+    text-decoration: none;
+}
+.FrontProductsCategory_show01-d1_c1 .menu-first UL LI.menu-none A:hover{
+   background:#723a19;
+    height: 35px;
+    color:#e3ce95;
+    text-decoration: none;
+}
+.FrontProductsCategory_show01-d1_c1 .menu-first UL LI.menu-none A:visted{
+    height: 35px;
+    text-decoration: none;
+     color:#e3ce95;
+}
+.FrontProductsCategory_show01-d1_c1 .menu-first UL LI.menu-none A:active{
+   background: #723a19;
+    height: 35px;
+    text-decoration: none;
+     color:#e3ce95;
+}
+.FrontProductsCategory_show01-d1_c1 .menu-first UL LI.menu-none A.current{
+   background: #723a19;
+    height: 35px;
+    color: #e3ce95;
+}
+.FrontProductsCategory_show01-d1_c1 .menu-second{
+   z-index: 10000;
+    position: absolute;
+    padding-bottom: 9px;
+    margin: -36px 0px 9px;
+    padding-left: 0px;
+    width: 123px;
+    padding-right: 0px;
+    display: none;
+    height: 100%;
+    padding-top: 0px;
+    left: 200px;
+    _margin: -44px 0 9px 0;
+}
+.FrontProductsCategory_show01-d1_c1 .menu-second UL LI A{
+   line-height: 23px;
+    margin: 0px;
+    background: url(../../images/products/second-bg-01.gif) repeat-y left top;
+    height: 23px;
+    color: #fff;
+    text-decoration: none;
+}
+.FrontProductsCategory_show01-d1_c1 .menu-second UL LI A:hover{
+   line-height: 23px;
+    width: 123px;
+    background: url(../../images/products/second-hover-01.gif) no-repeat left top;
+    height: 23px;
+    color: #e3ce95;
+}
+.FrontProductsCategory_show01-d1_c1 .menu-second P.top{
+   margin: 0px;
+    background: url(../../images/products/second-top-01.gif) no-repeat left bottom;
+    height: 5px;
+}
+.FrontProductsCategory_show01-d1_c1 .menu-second P.bottom{
+   margin: 0px;
+    background: url(../../images/products/second-bottom-01.gif) no-repeat left bottom;
+    height: 9px;
+    font-size: 0px;
+}
+.FrontProductsCategory_show01-d1_c1 A.menu-text1:link{
+   padding-left: 0px;
+    color: #6a3d0c;
+    text-decoration: none;
+}
+.FrontProductsCategory_show01-d1_c1 A.menu-text1:visited{
+   padding-left: 0px;
+    color: #e3ce95;
+    text-decoration: none;
+}
+.FrontProductsCategory_show01-d1_c1 A.menu-text1:active{
+   padding-left: 0px;
+    color: #e3ce95;
+    text-decoration: none;
+}
+.FrontProductsCategory_show01-d1_c1 A.menu-text1:hover{
+   background:#723a19;
+    color: #e3ce95;
+    text-decoration: underline;
+}
+.FrontProductsCategory_show01-d1_c1 A.menu-text2:link{
+   padding-bottom: 0px;
+    margin: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    color: #fff;
+    text-decoration: none;
+    padding-top: 0px;
+}
+.FrontProductsCategory_show01-d1_c1 A.menu-text2:visited{
+   padding-bottom: 0px;
+    margin: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    color: #e3ce95;
+    text-decoration: none;
+    padding-top: 0px;
+}
+.FrontProductsCategory_show01-d1_c1 A.menu-text2:active{
+   padding-bottom: 0px;
+    margin: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    color: #e3ce95;
+    text-decoration: none;
+    padding-top: 0px;
+}
+.FrontProductsCategory_show01-d1_c1 A.menu-text2:hover{
+   color: #e3ce95;
+    text-decoration: underline;
+}

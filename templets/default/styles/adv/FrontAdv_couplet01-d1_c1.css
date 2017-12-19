@@ -1,0 +1,25 @@
+@charset "utf-8";
+/** 全局样式 **/
+.FrontAdv_couplet01-d1_c1 {
+	
+	color:#000;
+	width:100%;
+	text-align:left;
+	
+	clear:both;
+}
+/** 对联广告 **/
+.FrontAdv_couplet01-d1_c1 .adv_couplet .shut {
+	position:absolute;
+	right:-15px;  /*修改后*/
+    top:-10px;   /*修改后*/
+	background:url(../../images/adv/ad-close-01.gif) left top no-repeat;
+	display:block;
+	width:18px;
+	height:18px;
+	text-indent:-9999px;
+	cursor:pointer;
+}
+.FrontAdv_couplet01-d1_c1 .adv_couplet .shut:hover {
+	background:url(../../images/adv/ad-close-02.gif) left top no-repeat;
+}

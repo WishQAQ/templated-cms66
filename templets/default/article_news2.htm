@@ -1,0 +1,178 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+   
+  <head> 
+      
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />  
+   <title>{dede:field.title/}_{dede:global.cfg_webname/}</title>
+<meta name="keywords" content="{dede:field.keywords/}" />
+<meta name="description" content="{dede:field.description function='html2text(@me)'/}" /> 
+    <link href="/templets/default/styles/page_news_detail1.css" rel="stylesheet" type="text/css" />  
+    <script type="text/javascript" src="/templets/default/js/publicScripts/common/jquery.js"></script>
+<script type="text/javascript" src="/templets/default/js/publicScripts/lib.min.js"></script>  
+     
+  </head>  
+  <body id="news_detail1"> 
+    <div class="pageWidth" id="box_root"> 
+      <!-- 头部导航开始 -->  
+      <div id="box_header"> 
+         {dede:include filename="header.htm"/} 
+     {dede:include filename="header2.htm"/}
+      </div>  
+      <!-- 头部导航结束 -->  
+      <div id="box_main"> 
+        <div id="box_main_sub1"> 
+          <div id="box_main_sub1_sub1"> 
+            <div id="box_main_sub1_sub1_sub1"> 
+              
+              <img alt="酒文化" src="/templets/default/images/wss/wine.png" />  
+           
+            </div>  
+            <div id="box_main_sub1_sub1_sub2"> 
+              
+              <DIV xmlns="" class="columnSpace" id="elem-FrontNewsCategory_bySameLevel01-1434949148625" name="同级资讯分类">  
+                <div id="FrontNewsCategory_bySameLevel01-1434949148625" class="FrontNewsCategory_bySameLevel01-d1_c1"><div class="menu-first">
+  <ul> 
+   {dede:type} 
+  <li >
+  		<a class="menu-text1 " href="[field:typeurl/]"  title="[field:typename/]" >[field:typename/]</a></li>
+   {/dede:type}
+  	</ul>
+	</div>
+</div> 
+              </DIV>  
+            
+            </div>  
+          {dede:include filename="sidebarslide.htm"/}
+          </div>  
+          <div id="box_main_sub1_sub2"> 
+            <div id="box_main_sub1_sub2_sub1"> 
+             
+              <DIV xmlns="" class="columnSpace" id="elem-FrontPublic_breadCrumb01-1308656787905" name="面包屑">  
+                <div id="FrontPublic_breadCrumb01-1308656787905" class="FrontPublic_breadCrumb01-d1_c1"><div>
+	您现在的位置：{dede:field name="position"/}</div>
+</div> 
+              </DIV>  
+            
+            </div>  
+            <div id="box_main_sub1_sub2_sub2"> 
+            
+              <DIV xmlns="" class="columnSpace" id="elem-FrontNews_detail01-1434970592712" name="资讯详细信息">  
+                <script type="text/javascript" src="/templets/default/js/publicScripts/news/FrontNews_detail01.js"></script>
+<script type="text/javascript" src="/templets/default/js/scripts/i18n/FrontNews_detail01.js"></script>
+<script type="text/javascript">
+	// <![CDATA[
+	FrontNews_detail01['FrontNews_detail01-1434970592712_init'] = function(){		
+				var pages= '';
+				if(pages==''){	
+    				jQuery.post("/FrontNews.do", "method=getVisitedCountByAjax&newsId=284", function(vc){
+    					jQuery("#visitedCount").html(vc);
+    					jQuery.post("/FrontNews.do", "method=setVisitedCountByAjax&newsId=284&times="+vc);
+    				});
+				}else{
+    				jQuery.post("/FrontNews.do", "method=getVisitedCountByAjaxOfRelated&newsId=284", function(vc){
+    					jQuery("#visitedCount").html(vc);
+    				});
+				}
+				FrontNews_detail01.getPreAndNextInfoByAjax("","4","284","/news_detail1.html","0","无");
+		}
+	jQuery(FrontNews_detail01['FrontNews_detail01-1434970592712_init']);
+// ]]>
+function convert(compId,item){
+		var detailform = document.getElementById(compId + "_" + "form");
+	    var newsKeyword_show = detailform.newsKeyword.value;
+		if(newsKeyword_show != ""){
+			var keyV = document.getElementById(item).innerText;
+			if(!keyV){
+				keyV = document.getElementById(item).innerHTML;
+			}
+			var after = encodeURIComponent(keyV);
+			detailform.newsKeyword.value=after;
+		}
+		detailform.action="/FrontNews.do?method=submit";
+		detailform.submit();
+}
+function convertStr(item){
+	return item.replace(/\&lt;/g, "<").replace(/\&gt;/g, ">"); 
+}
+function gotohtml(){
+	if(window.i18n_FrontNews_detail01_news_page_haveNoRight){
+			alert(i18n_FrontNews_detail01_news_page_haveNoRight);
+		}
+		var pageNO = history.length;
+		if (document.all) {
+            if (pageNO == 0) {
+                window.close();
+            }
+            else {
+                history.go(-1);
+            }
+        }
+        else {
+            if (pageNO == 1) {
+                window.close();
+            }
+            else {
+                history.go(-1);
+            }
+        }
+}
+</script>
+<form  id="FrontNews_detail01-1434970592712_form" method="post">
+<input type="hidden" name="action_page" value="/fengcai/"/> 
+<input type="hidden" name="newsScope" value="3"/> 
+<input type="hidden" name="newsSearch" value="newsSearch"/> 
+<input type="hidden" name="newsKeyword" value=""/> 
+<div id="FrontNews_detail01-1434970592712" class="FrontNews_detail01-d1_c1"><div id="newsdetailshow" >
+	<h2>{dede:field.title/}</h2>
+  <div class="message">
+   <span class="skim"><em>浏览次数：</em><span id="visitedCount"><script src="{dede:field name='phpurl'/}/count.php?view=yes&aid={dede:field name='id'/}&mid={dede:field name='mid'/}" type='text/javascript' language="javascript"></script></span></span>
+      <span class="date"><em>日期：</em>{dede:field.pubdate function="GetDateMK(@me)"/}
+</span>
+	</div>           
+  <div class="summary">
+   </div>
+  <div class="describe htmledit" id="infoContent">
+  {dede:field.body/}  
+  </div>  
+  <p>
+		</p>
+     <div class="operate">
+	    	</div>
+	   	<div class="page">
+      <p class="pre">	
+      <span>{dede:prenext get='pre'/}</span>
+     </p>
+	<p class="next">
+      <span>{dede:prenext get='next'/}</span>
+	</p>
+      </div>
+      <div class="other">
+
+	  <p class="typename"><strong>所属类别：</strong>
+         {dede:type} 
+    		<a  href="[field:typeurl/]">[field:typename/]</a>
+   {/dede:type}</p>
+	    <p class="keyword">该资讯的关键词为：{dede:field.keywords/}</p>
+		 </div>
+      </div>
+  </div></form>
+<script type="text/javascript">
+	jQuery("#newsdetailshow").show();
+	</script> 
+              </DIV>  
+             
+            </div> 
+          </div>  
+          <div class="clearBoth"></div> 
+        </div> 
+      </div>  
+      <!-- 底部版权开始 -->     
+    {dede:include filename="footer.htm"/}    
+      <!-- 底部版权结束 --> 
+    </div>  
+    
+</body>
+</html>

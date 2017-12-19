@@ -1,0 +1,99 @@
+@charset "utf-8";
+.border_00{
+   position: relative;
+    text-align: center;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    width: 100%;
+    padding-right: 0px;
+    padding-top: 0px;
+}
+.border_00 .border_00-topr{
+   line-height: 27px;
+    height: 27px;
+}
+.border_00 .border_00-topl{
+   line-height: 27px;
+    height: 27px;
+}
+.border_00 .border_00-mid{
+   width: 100%;
+    border-top: medium none;
+}
+.border_00 .borderContent{
+   padding-left: 0px;
+    padding-right: 10px;
+    padding-top: 0px;
+}
+.border_00 .comptitle_00{
+   position: absolute;
+    width: 98%;
+    height: 25px;
+    top: 7px;
+    left: 7px;
+}
+.border_00 .comptitle_00 STRONG{
+   text-align: left;
+    font-style: normal;
+    width: 45%;
+    float: left;
+    margin-left: 5px;
+    word-break: break-all;
+    font-weight: bold;
+    text-decoration: none;
+}
+.border_00 .comptitle_00 .titlestyle_00{
+   font-style: normal;
+    color: #000;
+    font-weight: bold;
+    text-decoration: none;
+}
+.border_00 .comptitle_00 STRONG IMG{
+   vertical-align: middle;
+    margin-right: 5px;
+}
+.border_00 .comptitle_00 EM{
+   font-style: normal;
+    float: right;
+    color: #770800;
+    font-weight: normal;
+    margin-right: 10px;
+}
+.border_00 .comptitle_00 EM SPAN.extendLink{
+   text-align: right;
+    font-size: 12px;
+    margin-right: 8px;
+}
+.border_00 .comptitle_00 EM SPAN.moreLink{
+   font-style: normal;
+    font-weight: normal;
+}
+.border_00 .compmore_00{
+   text-align: right;
+    clear: both;
+    font-size: 12px;
+    margin-right: 10px;
+}
+.border_00 .compmore_00 .extendLink{
+   text-align: right;
+    font-size: 12px;
+    margin-right: 10px;
+}
+.border_00 .compmore_00 .moreLink{
+   font-style: normal;
+    font-weight: normal;
+}
+.FrontProducts_list01-d1_c1{
+   text-align: left;
+    margin: 0px auto;
+    width: 100%;
+    height: 100%;
+    clear: both;
+    overflow: hidden;
+    padding-top: 0px;
+    _padding-top: 0px;
+}
+#box_root{
+   margin-left: auto;
+    margin-right: auto;
+}

@@ -1,0 +1,182 @@
+@charset "utf-8";
+
+.border_43{background-color:;background-image:;background-position:;background-repeat:null;padding-bottom:0px;padding-left:0px;padding-right:0px;padding-top:0px;position:relative;text-align:left;width:100%;}
+
+.border_43 .border_43-topr{
+
+   background-image: url(../../images/border-topr.gif);
+
+    line-height: 25px;
+
+    background-repeat: no-repeat;
+
+    background-position: right top;
+
+    height: 25px;
+
+}
+
+.border_43 .border_43-topl{
+
+   line-height: 25px;
+
+    background: url(../../images/border-topl.gif) no-repeat left top;
+
+    height: 25px;
+
+}
+
+.border_43 .border_43-midr{
+
+   background: url(../../images/border-midr.gif) repeat-y right top;
+
+}
+
+.border_43 .border_43-midl{
+
+   width: 100%;
+
+    background: url(../../images/border-midl.gif) repeat-y left top;
+
+}
+
+.border_43 .borderContent{
+
+   padding-bottom: 10px;
+
+    padding-left: 10px;
+
+    padding-right: 10px;
+
+    padding-top: 10px;
+
+}
+
+.border_43 .border_43-footerr{
+
+   background: url(../../images/border-footerr.gif) no-repeat right bottom;
+
+    height: 6px;
+
+    font-size: 0px;
+
+}
+
+.border_43 .border_43-footerl{
+
+   background: url(../../images/border-footerl.gif) no-repeat left bottom;
+
+    height: 6px;
+
+    font-size: 0px;
+
+}
+
+.border_43 .comptitle_43{
+
+   position: absolute;
+
+    width: 98%;
+
+    height: 25px;
+
+    top: 2px;;
+
+    left: 7px;
+
+}
+
+.border_43 .comptitle_43 STRONG{
+
+   text-align: left;
+
+    font-style: normal;
+
+    width: 45%;
+
+    float: left;
+
+    margin-left: 5px;
+
+    word-break: break-all;
+
+    font-weight: bold;
+
+    text-decoration: none;
+
+}
+
+.border_43 .comptitle_43 .titlestyle_43{color:#000;font-size:12px;font-style:normal;font-weight:bold;text-decoration:none;}
+
+.border_43 .comptitle_43 STRONG IMG{
+
+   width: 17px;
+
+    height: 17px;
+
+    vertical-align: middle;
+
+    margin-right: 5px;
+
+}
+
+.border_43 .comptitle_43 EM{
+
+   font-style: normal;
+
+    float: right;
+
+    font-weight: normal;
+
+    margin-right: 10px;
+
+}
+
+.border_43 .comptitle_43 EM SPAN.extendLink{
+
+   text-align: right;
+
+    font-size: 12px;
+
+    margin-right: 8px;
+
+}
+
+.border_43 .comptitle_43 EM SPAN.moreLink{
+
+   font-style: normal;
+
+    font-weight: normal;
+
+}
+
+.border_43 .compmore_43{
+
+   text-align: right;
+
+    clear: both;
+
+    font-size: 12px;
+
+    margin-right: 10px;
+
+}
+
+.border_43 .compmore_43 .extendLink{
+
+   text-align: right;
+
+    font-size: 12px;
+
+    margin-right: 10px;
+
+}
+
+.border_43 .compmore_43 .moreLink{
+
+   font-style: normal;
+
+    font-weight: normal;
+
+}
+

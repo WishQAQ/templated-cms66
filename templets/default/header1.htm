@@ -1,0 +1,66 @@
+<div id="box_header_sub3">
+  <div xmlns="" class="columnSpace" id="elem-FrontPublic_slideShow01-1435798432972" name="公用幻灯"> 
+    <script type="text/javascript" src="/templets/default/js/publicScripts/public/FrontPublic_slideShow01.js" ></script> 
+    <script language="javascript">
+	//<![CDATA[
+		FrontPublic_slideShow01['FrontPublic_slideShow01-1435798432972_init'] = function (){
+		 FrontPublic_slideShow01['FrontPublic_slideShow01-1435798432972_init'] = new FrontPublic_slideShow01();
+		 FrontPublic_slideShow01['FrontPublic_slideShow01-1435798432972_init'].d5_slide("960","");
+		}
+		$( FrontPublic_slideShow01['FrontPublic_slideShow01-1435798432972_init']);
+	// ]]>
+</script> 
+    <script type="text/javascript" src="/templets/default/js/publicScripts/common/superslide.2.1.js" ></script>
+    <div id="FrontPublic_slideShow01-1435798432972" class="FrontPublic_slideShow01-d6_c1">
+      <div class="fullSlide">
+        <div class="bd">
+          <ul>
+            <li> <a href="/"   class="f_pic"> <img src="/templets/default/images/images/banner1.jpg"  /> </a> <a href="/"   class="f_title"> </a> </li>
+            <li> <a href="/"   class="f_pic"> <img src="/templets/default/images/images/banner2.jpg"  /> </a> <a href="/"   class="f_title"> </a> </li>
+            <li> <a href="/"   class="f_pic"> <img src="/templets/default/images/images/banner3.jpg"  /> </a> <a href="/"   class="f_title"> </a> </li>
+            <!--<li>
+        			<a href="products_list/&pmcId=32.html"   class="f_pic"  target="_blank">
+						<img src="/templets/default/images/imageRepository/7a090813-7504-4f8f-90c5-527e47430911.jpg"  />
+		       	  			</a>
+		       	  			<a href="products_list/&pmcId=32.html"   class="f_title"  target="_blank">
+		       	  			</a>
+						</li>     
+	   <li>
+        			<a href="javascript:void(0)" class="f_pic" >
+		       	  			<img src="/templets/default/images/imageRepository/27752a31-f3a1-4761-907d-31297fa96c4d.jpg"  />
+		       	  			</a>
+		       	  			<a href="javascript:void(0)" class="f_title" >
+		       	  			</a>
+						</li>-->
+          </ul>
+        </div>
+        <div class="hd">
+          <ul>
+          </ul>
+        </div>
+        <span class="prev"></span> <span class="next"></span> </div>
+      <script type="text/javascript">
+$(".fullSlide").hover(function(){
+    $(this).find(".prev,.next").stop(true, true).fadeTo("show", 0.5)
+},
+function(){
+    $(this).find(".prev,.next").fadeOut()
+});
+$(".fullSlide").slide({
+    titCell: ".hd ul",
+    mainCell: ".bd ul",
+    effect: "fold",
+    autoPlay: true,
+    autoPage: true,
+    trigger: "click",
+    startFun: function(i) {
+        var curLi = jQuery(".fullSlide .bd li").eq(i);
+        if ( !! curLi.attr("_src")) {
+            curLi.css("background-image", curLi.attr("_src")).removeAttr("_src")
+        }
+    }
+});
+</script> 
+    </div>
+  </div>
+</div>
